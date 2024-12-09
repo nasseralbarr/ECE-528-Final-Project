@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/ECE528/Project/EEC_Resistor_Value/DataSet2/train/images
+val: /content/drive/MyDrive/ECE528/Project/EEC_Resistor_Value/DataSet2/valid/images
+test: /content/drive/MyDrive/ECE528/Project/EEC_Resistor_Value/DataSet2/test/images
+
+nc: 11
+names: ['Black', 'Blue', 'Brown', 'Gold', 'Green', 'Grey', 'Orange', 'Red', 'Violet', 'White', 'Yellow']
+
+roboflow:
+  workspace: asfandyar-khan-sioha
+  project: resistor_value
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/asfandyar-khan-sioha/resistor_value/dataset/3

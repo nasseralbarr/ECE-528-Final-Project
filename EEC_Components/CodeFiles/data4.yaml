@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/ECE528/Project/EEC_Components/DataSet4/train/images
+val: /content/drive/MyDrive/ECE528/Project/EEC_Components/DataSet4/valid/images
+test: /content/drive/MyDrive/ECE528/Project/EEC_Components/DataSet4/test/images
+
+nc: 5
+names: ['Capacitor', 'Inductor', 'Led', 'Resistor', 'Transistor']
+
+roboflow:
+  workspace: abc-qqksz
+  project: electronic-ezdmf
+  version: 23
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abc-qqksz/electronic-ezdmf/dataset/23

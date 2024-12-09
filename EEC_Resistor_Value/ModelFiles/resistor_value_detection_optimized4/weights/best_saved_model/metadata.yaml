@@ -1,0 +1,24 @@
+description: Ultralytics best model trained on /content/drive/MyDrive/ECE528/Project/EEC_Resistor_Value/CodeFiles/data2.yaml
+author: Ultralytics
+date: '2024-12-08T22:47:31.790977'
+version: 8.3.48
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 1024
+- 1024
+names:
+  0: Black
+  1: Blue
+  2: Brown
+  3: Gold
+  4: Green
+  5: Grey
+  6: Orange
+  7: Red
+  8: Violet
+  9: White
+  10: Yellow
